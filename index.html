@@ -11,29 +11,33 @@
 <body>
     <header>
         <h1>Discover hidden places in the world around you</h1>
-        <a href="#">Download excursion (Coming soon)</a>
     </header>
-    <div>
-        <video autoplay muted>
-            <source src="./resources/videos/excursion.mp4" type="video/mp4">
-            <p>
-                the video cannot be loaded on your browser, it's a showcase of the Excursion App.
-                click <a href="./resources/videos/excursion.mp4">here</a> to download it.
-            </p>
-        </video>
-    </div>
-    <div>
-        <h2>Your personal travel guide</h2>
-        <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
-        <img src="./resources/images/camp.jpg" alt="image of a camp on top of a hill" />
-    </div>
-    <div>
-        <img src="./resources/images/phone.png" alt="phone icon">
-        <h2>Coming Soon for iPhone and Android</h2>
-        <a href="#">Download excursion (Coming soon)</a>
+    <div class="container">
+        <div class="item">
+            <div>
+                <a href="#">Download excursion (Coming soon)</a>
+            </div>
+            <video autoplay muted>
+                <source src="./resources/videos/excursion.mp4" type="video/mp4">
+                <p>
+                    the video cannot be loaded on your browser, it's a showcase of the Excursion App.
+                    click <a href="./resources/videos/excursion.mp4">here</a> to download it.
+                </p>
+            </video>
+        </div>
+        <div class="item">
+            <h2>Your personal travel guide</h2>
+            <p>Excursion remembers places you like, and recommends new points of interest around you.</p>
+            <img id="camp" src="./resources/images/camp.jpg" alt="image of a camp on top of a hill" />
+        </div>
+        <div class="item">
+            <img src="./resources/images/phone.png" alt="phone icon">
+            <h2>Coming Soon for iPhone and Android</h2>
+            <a href="#">Download excursion (Coming soon)</a>
+        </div>
     </div>
     <footer>
-        <p class="copyright">© Excursion</p>
+        <p id="copyright">© Excursion</p>
     </footer>
 </body>
 
